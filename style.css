@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: 'Aquire';
+    src: url('./fonts/Aquire/aquire_bold_700-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* landing */
 body {
 position: relative;
