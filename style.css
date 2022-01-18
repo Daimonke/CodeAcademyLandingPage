@@ -1,0 +1,111 @@
+@import url('http://fonts.cdnfonts.com/css/aquire');
+
+/* landing */
+body {
+position: relative;
+background-image: url(images/backgroundimg2.jpeg);
+background-size: cover;
+background-position: bottom ;
+/* background: #0A0A0A; */
+color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.containerLeft {
+    margin: 69px 79px 10px 69px;
+}
+.containerRight {
+    height: 100vh;
+    width: 100vh;
+    background-size: contain;
+}
+
+.logoText {
+    font-family: Aquire;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.headerTitle {
+    font-family: Aquire;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56.01px;
+    line-height: 55px;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.headerText {
+    margin-left: 3px;
+    margin-top: 15px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+width: 70%;
+}
+
+/* Auto layout */
+.containerMedia {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-left: 156px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0px;
+}
+
+.media {
+margin-top: 27px;
+  max-width: 40vh;
+  text-align: center;
+  padding: 20px;
+}
+.border-gradient {
+    position: relative;
+}
+.border-gradient::before {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px; /*1*/
+    border:3px solid transparent; /*2*/
+    background:linear-gradient(45deg,rgba(0, 255, 128, 0.616), rgba(255, 208, 0, 0.856)) border-box; /*3*/
+    -webkit-mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+            mask-composite: exclude; /*5*/
+  }
+
+.footerText {
+        margin-top: 100px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    color: #FFFFFF;
+}
