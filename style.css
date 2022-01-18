@@ -15,10 +15,11 @@ a {
 
 .wrapper {
     display: flex;
+    height: 100%;
 }
 
 .containerLeft {
-    margin: 69px 79px 10px 69px;
+    margin: 30px 79px 10px 69px;
 }
 .containerRight {
     height: 100vh;
@@ -100,12 +101,15 @@ margin-top: 27px;
     -webkit-mask: /*4*/
        linear-gradient(#fff 0 0) padding-box, 
        linear-gradient(#fff 0 0);
+       mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor; /*5'*/
             mask-composite: exclude; /*5*/
   }
 
 .footerText {
-        margin-top: 100px;
+        margin-top: 10%;
         font-family: Raleway;
         font-style: normal;
         font-weight: normal;
