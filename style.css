@@ -1,11 +1,17 @@
 /* FONTS */
 @font-face {
     font-family: 'Aquire';
-    src: url('/fonts/aquire_bold_700-webfont.woff2') format('woff2'),
-         url('/fonts/aquire_bold_700-webfont.woff') format('woff');
+    src: url('./fonts/aquire_bold_700-webfont.woff2') format('woff2'),
+         url('./fonts/aquire_bold_700-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway'), url('./fonts/Raleway/Raleway-Regular.woff') format('woff');
+    }
 
 /* landing */
 body {
@@ -53,7 +59,7 @@ a {
 .headerText {
     margin-left: 3px;
     margin-top: 15px;
-font-family: Raleway;
+font-family: 'Raleway';
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -64,7 +70,7 @@ width: 70%;
 
 /* Auto layout */
 .containerMedia {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -123,7 +129,7 @@ margin-top: 27px;
     height: 60px;
     text-align: center;
     align-items: center;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
