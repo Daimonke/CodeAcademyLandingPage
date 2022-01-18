@@ -1,3 +1,11 @@
+/* FONTS */
+@font-face {
+    font-family: 'Aquire';
+    src: url('/fonts/aquire_bold_700-webfont.woff2') format('woff2'),
+         url('/fonts/aquire_bold_700-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* landing */
 body {
@@ -7,6 +15,7 @@ background-size: cover;
 background-position: bottom ;
 /* background: #0A0A0A; */
 color: white;
+height: 100vh;
 }
 a {
     text-decoration: none;
@@ -15,16 +24,12 @@ a {
 
 .wrapper {
     display: flex;
-    height: 100%;
 }
 
 .containerLeft {
     margin: 30px 79px 10px 69px;
 }
-.containerRight {
-    height: 100vh;
-    background-size: contain;
-}
+
 
 .logoText {
     font-family: 'Aquire';
@@ -108,8 +113,26 @@ margin-top: 27px;
             mask-composite: exclude; /*5*/
   }
 
+  .footer {
+      padding-left: 50px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
 .footerText {
-        margin-top: 10%;
+        margin-top: 10vh;
         font-family: Raleway;
         font-style: normal;
         font-weight: normal;
