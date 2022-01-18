@@ -1,17 +1,3 @@
-/* FONTS */
-@font-face {
-    font-family: 'Aquire';
-    src: url('./fonts/aquire_bold_700-webfont.woff2') format('woff2'),
-         url('./fonts/aquire_bold_700-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Raleway'), url('./fonts/Raleway/Raleway-Regular.woff') format('woff');
-    }
 
 /* landing */
 body {
