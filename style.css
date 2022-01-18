@@ -53,7 +53,7 @@ a {
 }
 
 .logoText {
-    font-family: Aquire;
+    font-family: 'Aquire';
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -62,7 +62,7 @@ a {
 }
 
 .headerTitle {
-    font-family: Aquire;
+    font-family: 'Aquire';
     font-style: normal;
     font-weight: bold;
     font-size: 56.01px;
