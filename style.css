@@ -77,6 +77,7 @@ margin-top: 27px;
   max-width: 40vh;
   text-align: center;
   padding: 20px;
+  background-color: rgb(0, 0, 0, 0.3);
 }
 .border-gradient {
     position: relative;
@@ -108,3 +109,15 @@ margin-top: 27px;
         line-height: 21px;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 1149px) {
+    .containerMedia {
+        margin: 0 auto;
+    }
+    .media {
+        background-color: rgb(0, 0, 0, 0.6);
+    }
+    .headerText {
+        width: 100%;
+    }
+  }
