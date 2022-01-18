@@ -4,8 +4,13 @@
     src: url('./fonts/Aquire/aquire_bold_700-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway'), url('./fonts/Raleway/Raleway-Regular.woff') format('woff');
+    }
 
 
 /* landing */
