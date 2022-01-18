@@ -27,7 +27,7 @@ a {
 }
 
 .containerLeft {
-    margin: 30px 79px 10px 69px;
+    margin: 69px 79px 10px 69px;
 }
 
 
@@ -131,15 +131,7 @@ margin-top: 27px;
     color: #FFFFFF;
 }
 
-.footerText {
-        margin-top: 10vh;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-    color: #FFFFFF;
-}
+
 
 @media only screen and (max-width: 1149px) {
     .containerMedia {
