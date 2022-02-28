@@ -170,26 +170,12 @@ margin-top: 27px;
 @media only screen and (max-width: 600px) {
     .containerMedia {
         align-items: center;
-        margin: 0 auto;
-    }
-    .media {
-        background-color: rgb(0, 0, 0, 0.6);
-    }
-    .headerText {
-        width: 100%;
     }
     .media {
         width: 40%;
     }
-    .containerLeft {
-        margin: 20px auto;
-        text-align: center;
-    }
     .headerTitle {
         text-align: center;
-    }
-    header {
-        margin: 5px 20px;
     }
   }
 
